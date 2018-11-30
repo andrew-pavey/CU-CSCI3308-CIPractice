@@ -1,5 +1,4 @@
 os: linux
-script: scons
+script: make clean test
 sudo: required
 install: make get-deps
-language: c
